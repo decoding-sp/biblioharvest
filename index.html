@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BiblioHarvest — literature review and screening workspace for Windows</title>
+<meta name="description" content="Search PubMed, Europe PMC, OpenAlex, Crossref and arXiv at once, screen results in one table, curate your set and export clean Excel. A local-first literature review workspace for Windows.">
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="img/logo.png" alt="">
+      <span>BiblioHarvest<small>Literature review workspace</small></span>
+    </a>
+    <nav class="nav">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#screens">Screenshots</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a class="btn btn-gold" href="https://apps.microsoft.com/detail/9P6FHX5VFR1T">Get the app</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">For Windows 10 &amp; 11</p>
+      <h1>Your whole literature review, in one desk-side workspace.</h1>
+      <p class="lead">BiblioHarvest turns a research question into database queries, collects the results, ranks
+        them for relevance, and gives you one place to screen, curate and export them — with a record of
+        every decision you made.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="https://apps.microsoft.com/detail/9P6FHX5VFR1T">Get it from Microsoft Store</a>
+        <a class="btn btn-ghost" href="#how">See how it works</a>
+      </div>
+      <p class="hero-note">No account. No developer server. Your questions, results and API keys stay on your PC.</p>
+    </div>
+    <div>
+      <img class="shot" src="img/results.png" alt="BiblioHarvest results table with relevance-ranked records">
+    </div>
+  </div>
+</section>
+
+<section class="band band-alt" id="why">
+  <div class="wrap">
+    <h2>The slow part of a review is not the reading</h2>
+    <p class="section-intro">It is the copy-paste between four search boxes, the spreadsheet that nobody can
+      reconstruct six months later, and the supervisor asking how you got from 1,400 records to 62.</p>
+    <div class="grid grid-3">
+      <div class="card">
+        <span class="icon" aria-hidden="true">🔁</span>
+        <h3>Four databases, four formats</h3>
+        <p>PubMed, Europe PMC, OpenAlex, Crossref and arXiv each return a different shape. Manual merging
+          means duplicates and inconsistent fields before the screening even starts.</p>
+      </div>
+      <div class="card">
+        <span class="icon" aria-hidden="true">📋</span>
+        <h3>Screening in a spreadsheet</h3>
+        <p>Decisions end up in ad-hoc columns, journal metrics are looked up by hand, and the sheet you
+          hand over cannot show why a paper was kept or dropped.</p>
+      </div>
+      <div class="card">
+        <span class="icon" aria-hidden="true">🧾</span>
+        <h3>No defensible record</h3>
+        <p>PRISMA needs counts and reasons at every stage. Rebuilding them afterwards from memory is the
+          step that turns a weekend into a month.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="how">
+  <div class="wrap">
+    <h2>How BiblioHarvest works</h2>
+    <p class="section-intro">Four steps, one window, nothing to install besides the app.</p>
+    <div class="steps">
+      <div class="step">
+        <h3>Ask</h3>
+        <p>Type the research question in plain language. The app builds keyword variations and boolean
+          queries for each database.</p>
+      </div>
+      <div class="step">
+        <h3>Harvest</h3>
+        <p>Queries run against PubMed, Europe PMC, OpenAlex, Crossref and arXiv. Duplicates are removed and
+          records are ranked for relevance to your question.</p>
+      </div>
+      <div class="step">
+        <h3>Screen</h3>
+        <p>Work through the table, accept or reject records, and keep a separate curated set. Journal
+          quartile and impact-factor columns record where each value came from.</p>
+      </div>
+      <div class="step">
+        <h3>Export</h3>
+        <p>Produce an initial screening workbook, a curated workbook and an analysis sheet with your
+          decisions — ready for a supervisor, an appendix or a PRISMA flow diagram.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-alt" id="features">
+  <div class="wrap">
+    <h2>What is inside</h2>
+    <p class="section-intro">Everything needed for screening and curation. Nothing that requires an account.</p>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Search once, not four times</h3>
+        <p>One question, five sources, deduplicated and relevance-ranked by a local engine. No API key is
+          required for searching.</p>
+      </div>
+      <div class="card">
+        <h3>Screening table with decisions</h3>
+        <p>Accept, reject, revisit. Every row keeps its source, its identifiers and your decision, so the
+          trail survives to the appendix.</p>
+      </div>
+      <div class="card">
+        <h3>Journal metrics with provenance</h3>
+        <p>Quartile and impact-factor columns are filled where publicly available, each value tagged with
+          the source it came from — and left blank rather than guessed.</p>
+      </div>
+      <div class="card">
+        <h3>Exports built for a supervisor</h3>
+        <p>Initial screening, curated set and analysis sheets as clean Excel workbooks, with the columns
+          you choose at export time.</p>
+      </div>
+      <div class="card">
+        <h3>Optional AI, never required</h3>
+        <p>Add your own Gemini, OpenAI or Groq key — or run a local Ollama model — for query expansion,
+          relevance screening, method/result/limitation extraction and summaries. Leave it unset and the
+          local engine does the work.</p>
+      </div>
+      <div class="card">
+        <h3>PDF retrieval</h3>
+        <p>Open-access PDFs are fetched for the curated set, with a browser-assisted mode for publisher
+          pages that need a click-through.</p>
+      </div>
+      <div class="card">
+        <h3>Local-first by design</h3>
+        <p>Your data lives in <code>%LOCALAPPDATA%\BiblioHarvest</code>. There is no BiblioHarvest account
+          and no server holding your research.</p>
+      </div>
+      <div class="card">
+        <h3>Comfortable for long sessions</h3>
+        <p>Light and dark themes, an option for larger text, and a reminder of the remaining allowance in
+          the status bar.</p>
+      </div>
+      <div class="card">
+        <h3>Keyboard-friendly</h3>
+        <p>Screen the queue without leaving the keyboard — accept, reject and move on, row after row.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="screens">
+  <div class="wrap">
+    <h2>Screenshots</h2>
+    <p class="section-intro">The light theme, from first query to exported workbook.</p>
+    <div class="gallery">
+      <figure>
+        <img src="img/home.png" alt="BiblioHarvest home screen with a research question field">
+        <figcaption>Start from a research question — the app writes the queries.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/search.png" alt="Search progress showing results collected from several databases">
+        <figcaption>Sources are queried together and merged as they return.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/results.png" alt="Ranked results table">
+        <figcaption>Ranked results, deduplicated, ready to screen.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/curated.png" alt="Curated set table with journal metric columns">
+        <figcaption>The curated set, with journal metrics and their sources.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/analysis.png" alt="Analysis tab extracting methods, results and limitations">
+        <figcaption>Optional AI analysis: methods, results and limitations per paper.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/export.png" alt="Export dialog with selectable columns">
+        <figcaption>Choose the columns, get a clean workbook.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="band band-alt" id="ai">
+  <div class="wrap">
+    <h2>Bring your own AI — or none at all</h2>
+    <p class="section-intro">The AI features are a plug-in, not a dependency. You choose the provider and
+      supply your own key; the app never ships one.</p>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Supported providers</h3>
+        <ul class="checklist">
+          <li>Google Gemini</li>
+          <li>OpenAI</li>
+          <li>Groq</li>
+          <li>Ollama — a model running on your own machine</li>
+          <li>None — the built-in local relevance engine</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>What the AI can do</h3>
+        <ul class="checklist">
+          <li>Expand a question into stronger search terms</li>
+          <li>Suggest relevance decisions during screening</li>
+          <li>Extract methods, results and limitations from an abstract</li>
+          <li>Summarise a curated set across papers</li>
+        </ul>
+        <p style="margin-top:14px">Keys are stored locally and used only for the provider you picked.
+          Everything else in the app works with no key at all.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="pricing">
+  <div class="wrap">
+    <h2>Price</h2>
+    <p class="section-intro">Free to install, with clear limits and no subscription. Pro removes them.</p>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Free <span class="pill pill-free">Every day</span></h3>
+        <p>Searching, screening, curation and export are included, plus three free uses each of AI with your
+          own key, PDF download and analysis. After that, one short sponsored view unlocks one use — up to five
+          a day.</p>
+      </div>
+      <div class="card">
+        <h3>Credits <span class="pill">Optional</span></h3>
+        <p>When a long screening session outlasts the daily allowance, credit packs add time. Purchases are
+          handled by the Microsoft Store; credits do not expire.</p>
+      </div>
+      <div class="card">
+        <h3>Lab &amp; library <span class="pill">On request</span></h3>
+        <p>Institutional licences cover a group, a lab or a library. <a href="support.html#contact">Get in
+          touch</a> with the number of people and devices.</p>
+      </div>
+    </div>
+    <div class="notice" style="margin-top:26px">
+      <strong>About the sponsored line.</strong> The free tier shows one dismissible sponsored message to keep
+      it running. It never covers your work and it can be closed for the session. The current build carries the
+      developer's own messages only — no third-party advertising network, and no data leaves your PC for
+      advertising. The <a href="privacy.html">privacy policy</a> explains this in full.
+    </div>
+    <div class="notice" style="margin-top:14px">
+      <strong>About Pro.</strong> Pro removes every limit and every advertisement, and is priced at ₹50 for one
+      week or ₹250 for one month. Subscriptions are not sold yet: the app says so and keeps every feature
+      reachable through sponsored views.
+    </div>
+  </div>
+</section>
+
+<section class="band band-alt" id="requirements">
+  <div class="wrap">
+    <h2>System requirements</h2>
+    <table class="spec">
+      <tr><th>Operating system</th><td>Windows 10 version 1809 (build 17763) or later, or Windows 11</td></tr>
+      <tr><th>Architecture</th><td>64-bit (x64)</td></tr>
+      <tr><th>Memory</th><td>4 GB RAM</td></tr>
+      <tr><th>Disk</th><td>About 700 MB</td></tr>
+      <tr><th>Connection</th><td>Internet needed for database searching, PDF retrieval and any AI provider you enable. Screening and export of collected records work offline.</td></tr>
+      <tr><th>Accounts</th><td>None for the app. A Microsoft account is used by the Store for the download and any purchase.</td></tr>
+      <tr><th>Current release</th><td>Version 2.9.15, distributed through the Microsoft Store</td></tr>
+    </table>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <h4>BiblioHarvest</h4>
+      <p>A literature review and screening workspace for Windows, built for students, researchers and
+        librarians who need a defensible record of how papers were selected.</p>
+      <p><a href="https://apps.microsoft.com/detail/9P6FHX5VFR1T">Microsoft Store</a></p>
+    </div>
+    <div>
+      <h4>Product</h4>
+      <ul>
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#screens">Screenshots</a></li>
+        <li><a href="index.html#requirements">Requirements</a></li>
+        <li><a href="support.html">Support &amp; FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="privacy.html">Privacy policy</a></li>
+        <li><a href="terms.html">Terms of use &amp; EULA</a></li>
+        <li><a href="terms.html#third-party">Third-party components</a></li>
+        <li><a href="support.html#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="legal">
+      © 2026 KnowSpark Interactive All rights reserved. BiblioHarvest is a name claimed by the publisher. Microsoft,
+      Windows and the Microsoft Store are trademarks of Microsoft Corporation. This site is not affiliated
+      with, endorsed by or sponsored by Microsoft. PubMed, Europe PMC, OpenAlex, Crossref, arXiv, Gemini,
+      OpenAI, Groq and Ollama are trademarks of their respective owners.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

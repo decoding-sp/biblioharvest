@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support and FAQ — BiblioHarvest</title>
+<meta name="description" content="Getting started, the free allowance and credits, AI providers, data and privacy, troubleshooting and contact for BiblioHarvest.">
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="img/logo.png" alt="">
+      <span>BiblioHarvest<small>Literature review workspace</small></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Overview</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a class="btn btn-gold" href="https://apps.microsoft.com/detail/9P6FHX5VFR1T">Get the app</a>
+    </nav>
+  </div>
+</header>
+
+<main class="band">
+  <div class="wrap">
+    <article class="doc">
+      <h1>Support</h1>
+      <p class="meta">For BiblioHarvest 2.9.x on Windows 10 and 11 · Replies within two business days</p>
+
+      <p>Most questions are answered below. If yours is not, write to
+        <a href="mailto:support.biblioharvest@gmail.com">support.biblioharvest@gmail.com</a> with the app version
+        (<em>Settings → About</em>) and what you were doing when the problem appeared.</p>
+
+      <h2>Getting started</h2>
+      <p><strong>How do I run my first search?</strong><br>
+        Install from the Microsoft Store, open the app and type your research question in the box on the home
+        screen. Leave the query options at their defaults for a first run — the app expands the question into
+        keyword variations for you. Choose the databases, press Search, and results appear in the table as each
+        source returns.</p>
+
+      <p><strong>Do I need an API key to use it?</strong><br>
+        No. Searching, screening, curation and export work with the built-in local relevance engine and no key
+        of any kind. Keys are only needed if you want the optional AI features.</p>
+
+      <p><strong>Which databases are searched?</strong><br>
+        PubMed, Europe PMC, OpenAlex, Crossref and arXiv. You can limit a run to a subset.</p>
+
+      <p><strong>Does it work offline?</strong><br>
+        Screening an existing result set and exporting workbooks work offline. New searches, PDF retrieval and
+        AI calls need an internet connection.</p>
+
+      <h2>The free allowance and credits</h2>
+      <p><strong>How much can I use for free?</strong><br>
+        Every install gets a daily allowance of use at no cost, reset each day. The remaining time is shown in
+        the status bar and in <em>Settings → Usage</em>, which is the authoritative figure for your machine.</p>
+
+      <p><strong>What happens when the allowance runs out?</strong><br>
+        A dialog offers three choices: wait for the next day's allowance, buy a credit pack from the Microsoft
+        Store, or complete an optional sponsored view for a few extra minutes. Nothing is deleted — your
+        results and curated set are still there when you come back.</p>
+
+      <p><strong>Do credits expire?</strong><br>
+        No. Purchased credits stay on the machine until they are used.</p>
+
+      <p><strong>How do I get a refund?</strong><br>
+        Purchases are processed by Microsoft, so refunds go through
+        <a href="https://support.microsoft.com/account-billing">Microsoft Store support</a>, not the developer.</p>
+
+      <p><strong>Why is there a sponsored line?</strong><br>
+        It funds the free tier. It is one dismissible line above the status bar plus an optional sponsored
+        view; closing it hides it for the session, and it never covers your work. The current build shows the
+        developer's own messages only — no third-party ad network and no data collected for advertising. See the
+        <a href="privacy.html#advertising">privacy policy</a>.</p>
+
+      <p><strong>What is free, and what needs a sponsored view?</strong><br>
+        Search, screening, curation and export are free. The free plan includes three free uses each of AI with
+        your own key, PDF download and analysis. After those, and always for a database search and the initial
+        Excel export, one short sponsored view unlocks one use — five unlocks a day, resetting at midnight.
+        Declining is always allowed and nothing is permanently locked.</p>
+
+      <p><strong>How much is Pro?</strong><br>
+        ₹50 for one week or ₹250 for one month, with every limit and all advertising removed. Subscriptions are
+        not sold yet; the app says so when you open its plans window.</p>
+
+      <h2>AI features</h2>
+      <p><strong>Which providers are supported?</strong><br>
+        Google Gemini, OpenAI, Groq, and Ollama for a model running on your own machine. Enter the key (or the
+        local endpoint, for Ollama) in <em>Settings → AI</em>.</p>
+
+      <p><strong>Where does my key go?</strong><br>
+        It is stored locally in <code>%LOCALAPPDATA%\BiblioHarvest</code> and sent only to the provider you
+        selected. It is never transmitted to the developer.</p>
+
+      <p><strong>The AI button says it is unavailable.</strong><br>
+        That means no provider is configured, or the key was rejected. Check the key, the provider's quota and
+        your connection. Everything else in the app continues to work without it.</p>
+
+      <p><strong>Should I trust the AI output?</strong><br>
+        Treat it as a first pass. It can be incomplete or wrong, and it is not a substitute for reading the
+        paper. Verify anything you put in a thesis or a submission.</p>
+
+      <h2>Data and privacy</h2>
+      <p><strong>Where is my work stored?</strong><br>
+        In <code>%LOCALAPPDATA%\BiblioHarvest</code>, together with exported workbooks wherever you saved them.
+        Copy that folder to back up your settings and curated sets.</p>
+
+      <p><strong>Can you see my searches?</strong><br>
+        No. There is no BiblioHarvest account and no developer server. The only outbound traffic is to the
+        sources described in the <a href="privacy.html">privacy policy</a>.</p>
+
+      <p><strong>How do I remove everything?</strong><br>
+        Uninstall from Windows Settings, then delete <code>%LOCALAPPDATA%\BiblioHarvest</code>.</p>
+
+      <h2>Troubleshooting</h2>
+      <p><strong>A search returns nothing.</strong><br>
+        Check that at least one database is selected, and try a broader question. Some fields and filters are
+        not supported by every source; the app drops the unsupported part of the query rather than failing the
+        whole run.</p>
+
+      <p><strong>PDFs will not download.</strong><br>
+        Only open-access copies are fetched automatically. Many publisher pages need a click-through or an
+        institutional login, so the app hands those to your browser. A paywalled article will not download — use
+        your library's access.</p>
+
+      <p><strong>A journal metric is blank.</strong><br>
+        Deliberate. Values are only filled where a public source provides them for that title and year; the app
+        leaves the cell empty rather than guessing.</p>
+
+      <p><strong>The app will not start after an update.</strong><br>
+        In Windows Settings → Apps, use <em>Advanced options → Repair</em> for BiblioHarvest, then
+        <em>Reset</em> if repair does not help. Reset removes local settings, so copy the data folder first if
+        you keep curated sets there.</p>
+
+      <p><strong>Reporting a bug.</strong><br>
+        Send the app version, what you did, what happened, and the most recent file from the app's
+        <code>logs</code> folder. Remove any API keys before attaching a log or screenshot.</p>
+
+      <h2>Requirements</h2>
+      <table class="spec" style="margin-top:8px">
+        <tr><th>Windows</th><td>10 version 1809 (build 17763) or later, or Windows 11</td></tr>
+        <tr><th>Architecture</th><td>64-bit (x64)</td></tr>
+        <tr><th>Memory</th><td>4 GB RAM</td></tr>
+        <tr><th>Disk</th><td>About 700 MB</td></tr>
+        <tr><th>Internet</th><td>For searching, PDFs and any AI provider</td></tr>
+      </table>
+
+      <h2 id="contact">Contact</h2>
+      <p>Support and data-protection enquiries:
+        <a href="mailto:support.biblioharvest@gmail.com">support.biblioharvest@gmail.com</a><br>
+        Response time: within two business days. Include the app version so we can reproduce the issue.</p>
+      <p>Institutional, lab and library licences: write to the same address with the number of people and
+        devices you need to cover.</p>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <h4>BiblioHarvest</h4>
+      <p>A literature review and screening workspace for Windows.</p>
+    </div>
+    <div>
+      <h4>Product</h4>
+      <ul>
+        <li><a href="index.html">Overview</a></li>
+        <li><a href="index.html#requirements">Requirements</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="privacy.html">Privacy policy</a></li>
+        <li><a href="terms.html">Terms of use &amp; EULA</a></li>
+      </ul>
+    </div>
+    <div class="legal">© 2026 KnowSpark Interactive All rights reserved. Microsoft, Windows and the Microsoft Store are
+      trademarks of Microsoft Corporation. This site is not affiliated with or endorsed by Microsoft.</div>
+  </div>
+</footer>
+
+</body>
+</html>
